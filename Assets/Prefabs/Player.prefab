@@ -73,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 21751529
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8054401605280511346, guid: f812739eae663c441a6c92555c173b1f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6917fce0d6b2f6e49978daba8a37f19e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -136,7 +136,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: d66fb09be84fb8b4db5c4ea3194b3ac1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -157,7 +157,7 @@ SpriteRenderer:
   m_SortingLayerID: 21751529
   m_SortingLayer: 1
   m_SortingOrder: 1
-  m_Sprite: {fileID: 5451528541811197315, guid: f812739eae663c441a6c92555c173b1f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 30e692abbc3fa454bb1fe74ca0960ffd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -402,13 +402,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   toChangeOnHits:
   - material: {fileID: 2100000, guid: d66fb09be84fb8b4db5c4ea3194b3ac1, type: 2}
-    sprite: {fileID: 3967098184632566292, guid: f812739eae663c441a6c92555c173b1f, type: 3}
+    sprite: {fileID: 21300000, guid: b81bca90b0d4602408fb4f0c473b62db, type: 3}
   - material: {fileID: 2100000, guid: 249711bf46a0bd349a58f0f3f556758e, type: 2}
-    sprite: {fileID: 3967098184632566292, guid: f812739eae663c441a6c92555c173b1f, type: 3}
+    sprite: {fileID: 21300000, guid: b81bca90b0d4602408fb4f0c473b62db, type: 3}
   - material: {fileID: 2100000, guid: 0ae1b499878db264b889e78ebbeea5ba, type: 2}
-    sprite: {fileID: 5475512164741030923, guid: f812739eae663c441a6c92555c173b1f, type: 3}
+    sprite: {fileID: 21300000, guid: 5297afb017e1aee4fb6c519387b47fe2, type: 3}
   - material: {fileID: 2100000, guid: 9f5e1b0acd63cda4486cd552c4eff470, type: 2}
-    sprite: {fileID: 5451528541811197315, guid: f812739eae663c441a6c92555c173b1f, type: 3}
+    sprite: {fileID: 21300000, guid: 30e692abbc3fa454bb1fe74ca0960ffd, type: 3}
   robotBodyRenderer: {fileID: 4056219978209848627}
 --- !u!114 &4056219978445333377
 MonoBehaviour:
@@ -497,7 +497,7 @@ SpriteRenderer:
   m_SortingLayerID: 21751529
   m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: -8054401605280511346, guid: f812739eae663c441a6c92555c173b1f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6917fce0d6b2f6e49978daba8a37f19e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

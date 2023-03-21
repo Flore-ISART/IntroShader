@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -15,15 +16,17 @@ public class PlayerHealth : MonoBehaviour
 
     private void ChangeHealth(int healthPoint)
     {
-        var unclampedHealth = ((int)health + healthPoint);
+        var unclampedHealth = (int)health + healthPoint;
         health = (uint)Mathf.Clamp(unclampedHealth, 0, maxHP);
         CheckDeath();
     }
 
     private void CheckDeath()
     {
-        if(health == 0)
-            Destroy(gameObject);
+        if (health == 0)
+        {
+            Destroy(GetComponent<PlayerInput>());
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D col)
