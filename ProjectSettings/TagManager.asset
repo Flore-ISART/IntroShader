@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Player
+    uniqueID: 21751529
+    locked: 0
+  - name: Power-up
+    uniqueID: 3240589351
+    locked: 0
+  - name: Enemies
+    uniqueID: 2704745109
+    locked: 0
+  - name: Ground
+    uniqueID: 1228671195
+    locked: 0
